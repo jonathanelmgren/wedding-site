@@ -1,8 +1,7 @@
 import type { NextPage } from 'next';
-import Styles from 'styles/test.module.scss';
 
 const Home: NextPage = () => {
-  return <div className={Styles.test}>Hej</div>;
+  return <div>Hej</div>;
 };
 
-export default Home;
+export default Home
